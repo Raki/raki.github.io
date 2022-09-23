@@ -36,7 +36,7 @@ eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create
   \**********************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
-eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst AppPBR_1 = __importDefault(__webpack_require__(/*! ./AppPBR */ \"./src/AppPBR.ts\"));\r\nconst app = new AppPBR_1.default();\r\napp.init();\r\n\n\n//# sourceURL=webpack://website/./src/index.ts?");
+eval("\r\nvar __importDefault = (this && this.__importDefault) || function (mod) {\r\n    return (mod && mod.__esModule) ? mod : { \"default\": mod };\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nconst AppPBR_1 = __importDefault(__webpack_require__(/*! ./AppPBR */ \"./src/AppPBR.ts\"));\r\nif (\"gpu\" in navigator) {\r\n    console.log(\"Your browser supports WebGPU\");\r\n}\r\nconst app = new AppPBR_1.default();\r\napp.init();\r\n\n\n//# sourceURL=webpack://website/./src/index.ts?");
 
 /***/ }),
 
